@@ -27,7 +27,7 @@ public class Romain {
 		}
 	}
 	public static void main(String[] args) {
-		Romain minus = new Romain("minus",6);
+		Romain minus = new Romain("minus",-6);
 		minus.prendreParole();
 		minus.parler("hi");
 		Gaulois asterix = new Gaulois("asterix",8);
